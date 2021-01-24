@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': 'Studio customizations',
+    'name': 'test studio',
     'version': '13.0.1.0',
     'category': 'Studio',
     'description': u"""
