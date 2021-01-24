@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo>
+  <record id="studio_customization.kegiatan_harian_186404d6-fb56-4555-95ba-a3de23cab5ba" model="ir.ui.menu" context="{'studio': True}">
+    <field name="action" eval="False"/>
+    <field name="active" eval="True"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="name">Kegiatan Harian</field>
+    <field name="parent_id" eval="False"/>
+    <field name="sequence">10</field>
+    <field name="web_icon">fa fa-calendar,#FFFFFF,#34495e</field>
+  </record>
+  <record id="studio_customization.kegiatan_harian_kegi_e2e7843b-bef7-4b65-ba99-be30480edaf4" model="ir.ui.menu" context="{'studio': True}">
+    <field name="action" ref="studio_customization.kegiatan_harian_4d3f85b1-ea1e-4df8-aabf-8af81a78a589"/>
+    <field name="active" eval="True"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="name">Kegiatan Harian</field>
+    <field name="parent_id" ref="studio_customization.kegiatan_harian_186404d6-fb56-4555-95ba-a3de23cab5ba"/>
+    <field name="sequence">10</field>
+    <field name="web_icon" eval="False"/>
+  </record>
+  <record id="studio_customization.kegiatan_harian_renc_e42600d3-a568-4531-82de-f3e13e6055df" model="ir.ui.menu" context="{'studio': True}">
+    <field name="action" ref="studio_customization.rencana_93146158-9952-4cdf-a1ad-fd2575232cde"/>
+    <field name="active" eval="True"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="name">Rencana</field>
+    <field name="parent_id" ref="studio_customization.kegiatan_harian_186404d6-fb56-4555-95ba-a3de23cab5ba"/>
+    <field name="sequence">10</field>
+    <field name="web_icon" eval="False"/>
+  </record>
+  <record id="studio_customization.kegiatan_harian_cust_3a1e8625-d209-4466-ad32-3604a359dcf8" model="ir.ui.menu" context="{'studio': True}">
+    <field name="action" ref="studio_customization.customer_a0124e9d-e400-4fee-b149-42d61a6f63f4"/>
+    <field name="active" eval="True"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="name">Customer</field>
+    <field name="parent_id" ref="studio_customization.kegiatan_harian_186404d6-fb56-4555-95ba-a3de23cab5ba"/>
+    <field name="sequence">10</field>
+    <field name="web_icon" eval="False"/>
+  </record>
+  <record id="project.menu_main_pm" model="ir.ui.menu" context="{'studio': True}">
+    <field name="action" eval="False"/>
+    <field name="active" eval="True"/>
+    <field name="groups_id" eval="[(6, 0, [ref('project.group_project_manager'), ref('project.group_project_user')])]"/>
+    <field name="name">Brainstorming</field>
+    <field name="parent_id" eval="False"/>
+    <field name="sequence">50</field>
+    <field name="web_icon">fa fa-bolt,#f1c40f,#34495e</field>
+  </record>
+  <record id="studio_customization.odoo_challenge_ea57d8a9-c907-4722-a17f-147411b33476" model="ir.ui.menu" context="{'studio': True}">
+    <field name="action" eval="False"/>
+    <field name="active" eval="True"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="name">Modul Manufacturing</field>
+    <field name="parent_id" eval="False"/>
+    <field name="sequence">10</field>
+    <field name="web_icon">fa fa-rocket,#9b59b6,#34495e</field>
+  </record>
+  <record id="studio_customization.odoo_challenge_odoo__5f414953-054f-48ff-8ca7-9c2f2ca82ddd" model="ir.ui.menu" context="{'studio': True}">
+    <field name="action" ref="studio_customization.odoo_challenge_b4879a2d-2478-4459-9f23-99fe4b0772b3"/>
+    <field name="active" eval="True"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="name">Training</field>
+    <field name="parent_id" ref="studio_customization.odoo_challenge_ea57d8a9-c907-4722-a17f-147411b33476"/>
+    <field name="sequence">10</field>
+    <field name="web_icon" eval="False"/>
+  </record>
+  <record id="studio_customization.kajian_hati_ufa_e4705b17-f4c3-41a7-9786-6e2a13a770e2" model="ir.ui.menu" context="{'studio': True}">
+    <field name="action" eval="False"/>
+    <field name="active" eval="True"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="name">Kajian Hati UFA</field>
+    <field name="parent_id" eval="False"/>
+    <field name="sequence">10</field>
+    <field name="web_icon" eval="False"/>
+  </record>
+  <record id="studio_customization.kajian_hati_ufa_audi_c3ba57b2-13a4-4dc4-a49c-b37b55ce75d7" model="ir.ui.menu" context="{'studio': True}">
+    <field name="action" ref="studio_customization.audio_d2f940b0-5759-42c6-8e52-05f5b235f1fb"/>
+    <field name="active" eval="True"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="name">Audio</field>
+    <field name="parent_id" ref="studio_customization.kajian_hati_ufa_e4705b17-f4c3-41a7-9786-6e2a13a770e2"/>
+    <field name="sequence">10</field>
+    <field name="web_icon" eval="False"/>
+  </record>
+  <record id="studio_customization.catatan_meeting_7a567b4a-0565-4444-9368-05fbbbc786d5" model="ir.ui.menu" context="{'studio': True}">
+    <field name="action" eval="False"/>
+    <field name="active" eval="True"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="name">Catatan Meeting</field>
+    <field name="parent_id" eval="False"/>
+    <field name="sequence">10</field>
+    <field name="web_icon">fa fa-info,#f1c40f,#34495e</field>
+  </record>
+  <record id="studio_customization.catatan_meeting_cata_3ec7dd42-b9c2-4216-8a78-0d1eb2baad08" model="ir.ui.menu" context="{'studio': True}">
+    <field name="action" ref="studio_customization.catatan_ec55d417-8973-401c-a9a4-c0c78b802837"/>
+    <field name="active" eval="True"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="name">Catatan</field>
+    <field name="parent_id" ref="studio_customization.catatan_meeting_7a567b4a-0565-4444-9368-05fbbbc786d5"/>
+    <field name="sequence">10</field>
+    <field name="web_icon" eval="False"/>
+  </record>
+</odoo>

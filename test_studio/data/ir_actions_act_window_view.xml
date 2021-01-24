@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo>
+  <record id="studio_customization.project_project_kanb_eb33957a-9175-4659-bdcd-811e55168fdb" model="ir.actions.act_window.view" context="{'studio': True}">
+    <field name="act_window_id" ref="project.open_view_project_all"/>
+    <field name="multi" eval="False"/>
+    <field name="sequence" eval="False"/>
+    <field name="view_id" ref="project.view_project_kanban"/>
+    <field name="view_mode">kanban</field>
+  </record>
+  <record id="studio_customization.false_729c7f94-0be0-49eb-a8a0-a8441ce2079f" model="ir.actions.act_window.view" context="{'studio': True}">
+    <field name="act_window_id" ref="project.open_view_project_all"/>
+    <field name="multi" eval="False"/>
+    <field name="sequence">1</field>
+    <field name="view_id" eval="False"/>
+    <field name="view_mode">form</field>
+  </record>
+  <record id="studio_customization.false_f19a6882-17a3-4bf0-b660-73a7c2317c8a" model="ir.actions.act_window.view" context="{'studio': True}">
+    <field name="act_window_id" ref="project.open_view_project_all"/>
+    <field name="multi" eval="False"/>
+    <field name="sequence">2</field>
+    <field name="view_id" eval="False"/>
+    <field name="view_mode">tree</field>
+  </record>
+</odoo>

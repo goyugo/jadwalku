@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo>
+  <record id="studio_customization.kegiatan_harian_grou_c18465c2-7990-44d1-acb2-1cbef4910f9b" model="ir.model.access" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="group_id" ref="base.group_system"/>
+    <field name="model_id" ref="studio_customization.kegiatan_harian_6a6aa804-1cad-4c7d-b8aa-30bad5c3beea"/>
+    <field name="name">Kegiatan Harian group_system</field>
+    <field name="perm_create" eval="True"/>
+    <field name="perm_read" eval="True"/>
+    <field name="perm_unlink" eval="True"/>
+    <field name="perm_write" eval="True"/>
+  </record>
+  <record id="studio_customization.kegiatan_harian_grou_23e30202-ee4d-451e-b1a6-0e2c28415609" model="ir.model.access" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="group_id" ref="base.group_user"/>
+    <field name="model_id" ref="studio_customization.kegiatan_harian_6a6aa804-1cad-4c7d-b8aa-30bad5c3beea"/>
+    <field name="name">Kegiatan Harian group_user</field>
+    <field name="perm_create" eval="False"/>
+    <field name="perm_read" eval="True"/>
+    <field name="perm_unlink" eval="False"/>
+    <field name="perm_write" eval="False"/>
+  </record>
+  <record id="studio_customization.rencana_group_system_4053fc26-ee23-4af0-99b9-f3506f77710b" model="ir.model.access" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="group_id" ref="base.group_system"/>
+    <field name="model_id" ref="studio_customization.rencana_5b3fc604-b57a-4375-8fe5-0a08da632998"/>
+    <field name="name">Rencana group_system</field>
+    <field name="perm_create" eval="True"/>
+    <field name="perm_read" eval="True"/>
+    <field name="perm_unlink" eval="True"/>
+    <field name="perm_write" eval="True"/>
+  </record>
+  <record id="studio_customization.rencana_group_user_48dab699-d98a-43fe-8764-91c792765f5f" model="ir.model.access" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="group_id" ref="base.group_user"/>
+    <field name="model_id" ref="studio_customization.rencana_5b3fc604-b57a-4375-8fe5-0a08da632998"/>
+    <field name="name">Rencana group_user</field>
+    <field name="perm_create" eval="False"/>
+    <field name="perm_read" eval="True"/>
+    <field name="perm_unlink" eval="False"/>
+    <field name="perm_write" eval="False"/>
+  </record>
+  <record id="studio_customization.customer_group_syste_95280a99-2bc1-447c-8795-7beac34b75c2" model="ir.model.access" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="group_id" ref="base.group_system"/>
+    <field name="model_id" ref="studio_customization.customer_21b1b6da-8a21-4e82-8651-1eab9e12e9ab"/>
+    <field name="name">Customer group_system</field>
+    <field name="perm_create" eval="True"/>
+    <field name="perm_read" eval="True"/>
+    <field name="perm_unlink" eval="True"/>
+    <field name="perm_write" eval="True"/>
+  </record>
+  <record id="studio_customization.customer_group_user_050387c1-c22d-422f-bf55-774d79316773" model="ir.model.access" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="group_id" ref="base.group_user"/>
+    <field name="model_id" ref="studio_customization.customer_21b1b6da-8a21-4e82-8651-1eab9e12e9ab"/>
+    <field name="name">Customer group_user</field>
+    <field name="perm_create" eval="False"/>
+    <field name="perm_read" eval="True"/>
+    <field name="perm_unlink" eval="False"/>
+    <field name="perm_write" eval="False"/>
+  </record>
+  <record id="studio_customization.meeting_group_system_d2ca28f0-1d97-4da2-a814-5299583fca2c" model="ir.model.access" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="group_id" ref="base.group_system"/>
+    <field name="model_id" ref="studio_customization.meeting_18e90d39-455f-47d0-b399-e89bca849b12"/>
+    <field name="name">Meeting group_system</field>
+    <field name="perm_create" eval="True"/>
+    <field name="perm_read" eval="True"/>
+    <field name="perm_unlink" eval="True"/>
+    <field name="perm_write" eval="True"/>
+  </record>
+  <record id="studio_customization.meeting_group_user_235774b8-3702-413c-a152-9d003419d0e5" model="ir.model.access" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="group_id" ref="base.group_user"/>
+    <field name="model_id" ref="studio_customization.meeting_18e90d39-455f-47d0-b399-e89bca849b12"/>
+    <field name="name">Meeting group_user</field>
+    <field name="perm_create" eval="False"/>
+    <field name="perm_read" eval="True"/>
+    <field name="perm_unlink" eval="False"/>
+    <field name="perm_write" eval="False"/>
+  </record>
+  <record id="studio_customization.odoo_challenge_group_a1d3b871-ffb0-4b29-9469-f3c2f146f1ae" model="ir.model.access" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="group_id" ref="base.group_system"/>
+    <field name="model_id" ref="studio_customization.odoo_challenge_47ccf39d-b4b1-413c-878d-006c83513ea8"/>
+    <field name="name">Odoo challenge group_system</field>
+    <field name="perm_create" eval="True"/>
+    <field name="perm_read" eval="True"/>
+    <field name="perm_unlink" eval="True"/>
+    <field name="perm_write" eval="True"/>
+  </record>
+  <record id="studio_customization.odoo_challenge_group_628ab298-85cf-47cc-9cad-b8e01b33b955" model="ir.model.access" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="group_id" ref="base.group_user"/>
+    <field name="model_id" ref="studio_customization.odoo_challenge_47ccf39d-b4b1-413c-878d-006c83513ea8"/>
+    <field name="name">Odoo challenge group_user</field>
+    <field name="perm_create" eval="False"/>
+    <field name="perm_read" eval="True"/>
+    <field name="perm_unlink" eval="False"/>
+    <field name="perm_write" eval="False"/>
+  </record>
+  <record id="studio_customization.audio_group_system_1a807602-04a7-4cf3-be69-1314c07c286a" model="ir.model.access" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="group_id" ref="base.group_system"/>
+    <field name="model_id" ref="studio_customization.audio_2d2489e1-d7cd-4ddf-a1e0-e99901774c73"/>
+    <field name="name">Audio group_system</field>
+    <field name="perm_create" eval="True"/>
+    <field name="perm_read" eval="True"/>
+    <field name="perm_unlink" eval="True"/>
+    <field name="perm_write" eval="True"/>
+  </record>
+  <record id="studio_customization.audio_group_user_e56d3837-0a1a-4fee-82bd-484513316daa" model="ir.model.access" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="group_id" ref="base.group_user"/>
+    <field name="model_id" ref="studio_customization.audio_2d2489e1-d7cd-4ddf-a1e0-e99901774c73"/>
+    <field name="name">Audio group_user</field>
+    <field name="perm_create" eval="False"/>
+    <field name="perm_read" eval="True"/>
+    <field name="perm_unlink" eval="False"/>
+    <field name="perm_write" eval="False"/>
+  </record>
+  <record id="studio_customization.catatan_group_system_a4244ae8-33a6-4adb-af0c-e9b8ed359185" model="ir.model.access" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="group_id" ref="base.group_system"/>
+    <field name="model_id" ref="studio_customization.catatan_c81eaa43-2435-4544-9c10-6f7e3ef5d489"/>
+    <field name="name">Catatan group_system</field>
+    <field name="perm_create" eval="True"/>
+    <field name="perm_read" eval="True"/>
+    <field name="perm_unlink" eval="True"/>
+    <field name="perm_write" eval="True"/>
+  </record>
+  <record id="studio_customization.catatan_group_user_ce8f4c3f-0699-46b8-90a3-93bf777053a2" model="ir.model.access" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="group_id" ref="base.group_user"/>
+    <field name="model_id" ref="studio_customization.catatan_c81eaa43-2435-4544-9c10-6f7e3ef5d489"/>
+    <field name="name">Catatan group_user</field>
+    <field name="perm_create" eval="False"/>
+    <field name="perm_read" eval="True"/>
+    <field name="perm_unlink" eval="False"/>
+    <field name="perm_write" eval="False"/>
+  </record>
+</odoo>
